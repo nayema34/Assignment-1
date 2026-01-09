@@ -76,6 +76,9 @@ nav{
     font-size: 14px;
     color: #469165;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
     background-color: #ffffff;
     padding: 5px 10px;
     border-radius: 20px;
@@ -305,9 +308,40 @@ footer{
 footer .footer-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     width: 80%;
     margin: auto;
     padding-top: 120px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social .icons i{
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    padding: auto 15px;
+    border-radius: 50%;
+    text-align: center;
+}
+footer hr{
+    color: #666666;
+    width: 80%;
+    margin:50px auto;
+}
+.copyright{
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
 }
