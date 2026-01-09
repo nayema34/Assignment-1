@@ -201,3 +201,49 @@ nav{
     width: 32px;
     height: 32px;
 }
+
+.solution-section{
+    margin: 100px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.solution-section .big-image img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+.points p:nth-child(1){
+    margin-bottom: 20px;
+    color: #469165;
+}
+.points h1{
+    font-size: 44px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.points p{
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.points .point-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.points h3{
+    font-size: 16px;
+    color: #000000;
+    margin: 8px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
